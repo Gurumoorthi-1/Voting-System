@@ -1,0 +1,6 @@
+[2026-02-15T06:40:10.652Z] Operation `users.findOne()` buffering timed out after 10000ms
+Stack: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\Voting System\backend-module\backend-module\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:188:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+
