@@ -94,9 +94,9 @@ const AdminDashboard = () => {
                 ))}
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 xl:grid-cols-4 gap-6">
                 {/* Recent Activity List */}
-                <div className="lg:col-span-2 bg-white rounded-[2.5rem] shadow-xl border border-gray-100 overflow-hidden flex flex-col">
+                <div className="xl:col-span-3 bg-white rounded-[2.5rem] shadow-xl border border-gray-100 overflow-hidden flex flex-col">
                     <div className="px-8 py-7 bg-gradient-to-r from-blue-700 via-indigo-800 to-indigo-950 text-white flex items-center justify-between">
                         <h2 className="text-xl font-bold flex items-center">
                             <Clock className="w-6 h-6 mr-3 text-blue-200" />
@@ -131,31 +131,31 @@ const AdminDashboard = () => {
                 </div>
 
                 {/* Quick Help Card */}
-                <div className="bg-gradient-to-br from-indigo-600 to-indigo-900 rounded-[2.5rem] p-8 text-white shadow-2xl relative overflow-hidden">
-                    <div className="relative z-10 flex flex-col h-full">
-                        <h3 className="text-xl font-bold mb-6">Quick Overview</h3>
-                        <div className="space-y-6 flex-1">
-                            <div className="flex items-start space-x-4">
-                                <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
-                                    <span className="font-bold">1</span>
+                <div className="bg-gradient-to-br from-indigo-600 to-indigo-900 rounded-[2rem] p-6 text-white shadow-xl relative overflow-hidden xl:col-span-1 h-fit">
+                    <div className="relative z-10 flex flex-col">
+                        <h3 className="text-lg font-bold mb-4">Quick Overview</h3>
+                        <div className="space-y-4 flex-1">
+                            <div className="flex items-start space-x-3">
+                                <div className="w-6 h-6 rounded-md bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    <span className="font-bold text-xs">1</span>
                                 </div>
-                                <p className="text-sm text-indigo-100 leading-relaxed font-medium">Create an <span className="text-white font-bold">Election Event</span> with specific start and end timings.</p>
+                                <p className="text-xs text-indigo-100 leading-relaxed font-medium">Create an <span className="text-white font-bold">Election Event</span> with specific start and end timings.</p>
                             </div>
-                            <div className="flex items-start space-x-4">
-                                <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
-                                    <span className="font-bold">2</span>
+                            <div className="flex items-start space-x-3">
+                                <div className="w-6 h-6 rounded-md bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    <span className="font-bold text-xs">2</span>
                                 </div>
-                                <p className="text-sm text-indigo-100 leading-relaxed font-medium">Add <span className="text-white font-bold">Candidates</span> and their profile details to the event.</p>
+                                <p className="text-xs text-indigo-100 leading-relaxed font-medium">Add <span className="text-white font-bold">Candidates</span> and their profile details to the event.</p>
                             </div>
-                            <div className="flex items-start space-x-4">
-                                <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
-                                    <span className="font-bold">3</span>
+                            <div className="flex items-start space-x-3">
+                                <div className="w-6 h-6 rounded-md bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    <span className="font-bold text-xs">3</span>
                                 </div>
-                                <p className="text-sm text-indigo-100 leading-relaxed font-medium">Toggle the <span className="text-white font-bold">Active Status</span> once the timeline starts.</p>
+                                <p className="text-xs text-indigo-100 leading-relaxed font-medium">Toggle the <span className="text-white font-bold">Active Status</span> once the timeline starts.</p>
                             </div>
                         </div>
-                        <div className="mt-8 pt-8 border-t border-white/10 text-center">
-                            <p className="text-xs text-white/60 font-medium">System Version v2.0.4 - Premium Admin Panel</p>
+                        <div className="mt-6 pt-6 border-t border-white/10 text-center">
+                            <p className="text-[10px] text-white/60 font-medium">v2.0.4 - Premium Admin Panel</p>
                         </div>
                     </div>
                 </div>

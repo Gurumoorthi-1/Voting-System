@@ -14,7 +14,7 @@ app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 
 // Connect to MongoDB
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://root:example@mongodb:27017/voting_db?authSource=admin';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://guru707378_db_user:Dn5WoAnlVBy8l4Rk@cluster0.ttqax7d.mongodb.net/?appName=Cluster0';
 const seedSuperAdmin = async () => {
   const User = require('./models/User');
   const bcrypt = require('bcrypt');
